@@ -2507,8 +2507,6 @@ br.small {
 @media only screen and (max-width: 735px) {
     .module-river-base-left .image-example {
         margin-top: 60px;
-        margin-left: 30%;
-        width: 30%;
     }
 }
 
@@ -2525,8 +2523,6 @@ br.small {
 @media only screen and (max-width: 735px) {
     .module-river-base-left .image-showcase {
         margin-top: 20px;
-        margin-left: 15%;
-        width: 70%;
     }
 }
 
