@@ -35,6 +35,10 @@ button {
     padding: 0
 }
 
+picture {
+    margin-bottom: -0.4em;
+}
+
 pre,
 code,
 address,
