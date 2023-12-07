@@ -2229,6 +2229,10 @@ br.small {
     text-align: center
 }
 
+.typography-info-headline {
+    text-align: center
+}
+
 .module-1-up-super .typography-hero-eyebrow {
     margin-top: 15px
 }
@@ -2604,4 +2608,10 @@ html.ie .section-hero .wrapper {
     .section-hero .wrapper figure {
         margin-top: 0
     }
+}
+
+
+.section-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
