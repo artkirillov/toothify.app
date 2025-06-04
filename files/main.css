@@ -150,7 +150,7 @@ button:disabled {
 html {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 106.25%;
-    quotes: "“""”"
+    quotes: """""
 }
 
 [lang]:lang(ar) {
@@ -186,51 +186,51 @@ html {
 }
 
 :lang(cs) {
-    quotes: "„""“"
+    quotes: """""
 }
 
 :lang(de) {
-    quotes: "„""“"
+    quotes: """""
 }
 
 :lang(de-CH) {
-    quotes: "« "" »"
+    quotes: « »"
 }
 
 :lang(fr) {
-    quotes: "« "" »"
+    quotes: « »"
 }
 
 :lang(es-ES) {
-    quotes: "«""»"
+    quotes: """"
 }
 
 :lang(hu) {
-    quotes: "„""“"
+    quotes: """""
 }
 
 :lang(ja-JP) {
-    quotes: "「""」"
+    quotes: """"""
 }
 
 :lang(no-NO) {
-    quotes: "«""»"
+    quotes: « »"
 }
 
 :lang(pl) {
-    quotes: "„""“"
+    quotes: """""
 }
 
 :lang(ru) {
-    quotes: "« "" »"
+    quotes: « »"
 }
 
 :lang(zh) {
-    quotes: "「""」"
+    quotes: """"""
 }
 
 :lang(zh-CN) {
-    quotes: "“""”"
+    quotes: """""
 }
 
 body {
@@ -3200,4 +3200,19 @@ html.text-zoom .typography-headline-super:lang(zh-TW) {
 
 #localnav .ln-action-button .ln-button:hover {
     opacity: 0.95
+}
+
+.section-content-link {
+    text-decoration: none !important;
+    color: inherit;
+}
+.section-content-link:hover {
+    text-decoration: none !important;
+    color: inherit;
+}
+.section-content-link * {
+    text-decoration: none !important;
+}
+.section-content-link:hover * {
+    text-decoration: none !important;
 }
