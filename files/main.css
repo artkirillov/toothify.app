@@ -3214,3 +3214,24 @@ html.text-zoom .typography-headline-super:lang(zh-TW) {
 .margin-bottom-20 {
     margin-bottom: 1em;
 }
+
+/* Mobile-friendly link handling for sources section */
+@media only screen and (max-width: 735px) {
+    .typography-intro a {
+        word-wrap: break-word;
+        word-break: break-all;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    .typography-intro li {
+        margin-bottom: 1em;
+    }
+    
+    .typography-intro li a {
+        display: inline-block;
+        max-width: 100%;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+}
